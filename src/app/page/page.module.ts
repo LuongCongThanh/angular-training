@@ -1,8 +1,13 @@
+
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
-import {PageRoutingModule} from './page-router.module';
 import {HomeComponent} from './home/home.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import {PageRoutingModule} from './page-router.module';
+import { HomeComponent } from './home/home.component';
+import { PageComponent } from './page.component';
 
 @NgModule({
   declarations: [
@@ -13,5 +18,5 @@ import {HomeComponent} from './home/home.component';
     PageRoutingModule
   ]
 })
-export class PageModule {
-}
+export class PageModule { }
+

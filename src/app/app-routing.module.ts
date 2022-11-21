@@ -13,9 +13,6 @@ const routes: Routes = [
     path: '',
     component: MainLayoutComponent,
     loadChildren: () => import('./page/page.module')
-  }
-];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
